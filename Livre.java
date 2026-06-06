@@ -1,4 +1,4 @@
-package gestionBibliothequeUK;
+package gestion-Biblioth-que-UK;
 
 public class Livre {
 
