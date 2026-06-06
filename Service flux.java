@@ -1,10 +1,10 @@
 package gestion-Biblioth-que-UK;
 
 
-public class ServiceFlux {
+public class Service flux {
     private Stock stock;
 
-    public ServiceFlux(Stock stock) {
+    public Service flux(Stock stock) {
         this.stock = stock;
     }
 
