@@ -37,3 +37,17 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin [https://github.com/DevOps255/gestion-Biblioth-que-UK.git](https://github.com/DevOps255/gestion-Biblioth-que-UK.git)
 git push -u origin main
+```
+
+
+## 💻 Instructions d'Installation et d'Exécution
+
+### Prérequis
+* **Java JDK 8** ou une version supérieure installé sur votre machine.
+* **Git** installé et configuré.
+
+### Compilation et Lancement en Ligne de Commande
+1. Ouvrez votre terminal (Git Bash recommandé) et clonez le dépôt :
+```bash
+   git clone [https://github.com/DevOps255/gestion-Biblioth-que-UK.git](https://github.com/DevOps255/gestion-Biblioth-que-UK.git)
+
