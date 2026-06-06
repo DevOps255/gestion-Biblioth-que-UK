@@ -1,6 +1,5 @@
 package gestionBiblioUK;
 
-;
 
 public class ServicesFlux {
     private Stock stock;
