@@ -3,8 +3,8 @@ package gestion-Biblioth-que-UK;
 public class Main {
     public static void main(String[] args) {
         Stock stock = new Stock();
-        ServiceFlux serviceFlux = new ServiceFlux(stock);
-        MenuIHM ihm = new MenuIHM();
+        Service flux serviceFlux = new ServiceFlux(stock);
+        Menu ihm = new Menu();
         
         int choix = 0;
         System.out.println("Bienvenue dans le gestionnaire de bibliothèque !");
@@ -27,12 +27,12 @@ public class Main {
 
                 case 3:
                     String titreEmprunt = ihm.lireChamp("\nEntrez le titre du livre à emprunter : ");
-                    serviceFlux.enregistrerEmprunt(titreEmprunt);
+                    service flux.enregistrerEmprunt(titreEmprunt);
                     break;
 
                 case 4:
                     String titreRetour = ihm.lireChamp("\nEntrez le titre du livre à retourner : ");
-                    serviceFlux.enregistrerRetour(titreRetour);
+                    service flux.enregistrerRetour(titreRetour);
                     break;
 
                 case 5:
@@ -42,7 +42,7 @@ public class Main {
                     String nAuteur = ihm.lireChamp("Nouvel auteur : ");
                     
                     LivreModifier modifs = new LivreModifier(nTitre, nAuteur);
-                    serviceFlux.enregistrerModification(cible, modifs);
+                    service flux.enregistrerModification(cible, modifs);
                     break;
 
                 case 6:
