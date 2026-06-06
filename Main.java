@@ -3,7 +3,7 @@ package gestion-Biblioth-que-UK;
 public class Main {
     public static void main(String[] args) {
         Stock stock = new Stock();
-        Service flux serviceFlux = new ServiceFlux(stock);
+        Service flux service flux = new ServiceFlux(stock);
         Menu ihm = new Menu();
         
         int choix = 0;
